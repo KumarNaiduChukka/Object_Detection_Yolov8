@@ -7,7 +7,7 @@ import math
 cap = cv2.VideoCapture("../Videos/ppe-1.mp4")
 
 
-model = YOLO("ppe.pt")
+model = YOLO("../YOLO_WEIGHTS/ppe.pt")
 
 classNames = ['Excavator', 'Gloves', 'Hardhat', 'Ladder', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person',
               'SUV', 'Safety Cone', 'Safety Vest', 'bus', 'dump truck', 'fire hydrant', 'machinery', 'mini-van',
